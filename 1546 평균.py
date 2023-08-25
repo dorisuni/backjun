@@ -50,3 +50,11 @@ for i in scores2:
     total+=i
 print(total/N)
 
+#이걸 조금 더 정리하면
+
+N = int(input())
+scores = list(map(int,input().split()))
+Max =max(scores)
+scores2 = [x/Max*100 for x in scores]
+avg = sum(scores2)
+print(avg)
