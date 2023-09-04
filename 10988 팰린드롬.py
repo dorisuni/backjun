@@ -27,3 +27,4 @@ if word == reverse_name:
     print("1")
 else:
     print("0")
+    
